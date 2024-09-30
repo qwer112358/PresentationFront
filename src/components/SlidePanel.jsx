@@ -53,7 +53,7 @@ const SlidePanel = ({ slides, setSlides, setCurrentSlide, handleAddSlide }) => {
 
   useEffect(() => {
     const connection = new HubConnectionBuilder()
-      .withUrl('https://backendpresentation.onrender.com/hubs/presentation')
+      .withUrl('https://backendpresentation.onrender.com/whiteboardHub')
       .withAutomaticReconnect()
       .build();
 
