@@ -12,7 +12,7 @@ function App() {
   const [currentPresentation, setCurrentPresentation] = useState(null);
   const [connection, setConnection] = useState(null);
   const port =
-    'http://usermanagement-dev.eba-tems7iqk.eu-west-2.elasticbeanstalk.com/';
+    'https://backendpresentation.onrender.com/';
 
   useEffect(() => {
     if (nickname) {
