@@ -18,7 +18,7 @@ function Whiteboard({
   connection,
 }) {
   const port =
-    'http://usermanagement-dev.eba-tems7iqk.eu-west-2.elasticbeanstalk.com/api/';
+    'https://backendpresentation.onrender.com/api/';
   const [selectedTool, setSelectedTool] = useState('pencil');
   const [currentSlide, setCurrentSlide] = useState(slides[0]);
   const [drawingData, setDrawingData] = useState([]);
