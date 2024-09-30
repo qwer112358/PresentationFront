@@ -5,7 +5,7 @@ import { Box, Button, FormControl, FormLabel, Input } from '@chakra-ui/react';
 function ApplicationUserForm({ onSubmit }) {
   const [nickname, setNickname] = useState('');
   const port =
-    'http://usermanagement-dev.eba-tems7iqk.eu-west-2.elasticbeanstalk.com/api/';
+    'https://backendpresentation.onrender.com/api/';
 
   const handleSubmit = async (e) => {
     e.preventDefault();
