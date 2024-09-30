@@ -14,7 +14,7 @@ class LineService {
 
     try {
       const response = await fetch(
-        'http://usermanagement-dev.eba-tems7iqk.eu-west-2.elasticbeanstalk.com/api/whiteboard',
+        'https://backendpresentation.onrender.com/api/whiteboard',
         {
           method: 'POST',
           headers: {
