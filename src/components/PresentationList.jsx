@@ -17,7 +17,7 @@ function PresentationList({ onJoin, onCreate, nickname }) {
   const [presentations, setPresentations] = useState([]);
   const [newTitle, setNewTitle] = useState('');
   const port =
-    'http://usermanagement-dev.eba-tems7iqk.eu-west-2.elasticbeanstalk.com/api/';
+    'https://backendpresentation.onrender.com/api/';
 
   useEffect(() => {
     const fetchPresentations = async () => {
