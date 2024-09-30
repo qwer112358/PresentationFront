@@ -3,7 +3,7 @@ import * as signalR from '@microsoft/signalr';
 class SignalRService {
   constructor() {
     this.connection = null;
-    this.port = 'http://localhost:5000/';
+    this.port = 'https://backendpresentation.onrender.com/';
   }
 
   async startConnection(presentationId, slideId) {
